@@ -1,0 +1,8 @@
+2017-01-27 11:51:18 INFO  Directory:133 - Reading from custom properties
+2017-01-27 11:51:18 INFO  Directory:326 - Setting Reports Dir---C:/workspace/Zautomate/ZA/Reports
+2017-01-27 11:51:18 INFO  Directory:327 - Setting Results Dir---C:/workspace/Zautomate/ZA/Reports\Results
+2017-01-27 11:51:20 INFO  FirefoxBrowser:21 - Calling FirefoxBrowser constructor and return Firefox Driver Object
+2017-01-27 11:51:35 INFO  TestNGClass:118 - before set driver Thread -----10------------driver------------FirefoxDriver: firefox on WINDOWS (299d91de-68db-4b45-89a5-3a413622bddb)
+2017-01-27 11:51:35 INFO  TestNGClass:122 - after set driver Thread -----10------------driver------------FirefoxDriver: firefox on WINDOWS (299d91de-68db-4b45-89a5-3a413622bddb)
+2017-01-27 11:52:01 INFO  TestNGClass:184 - Thread @ first close-----10------------driver------------FirefoxDriver: firefox on WINDOWS (299d91de-68db-4b45-89a5-3a413622bddb)
+2017-01-27 11:52:03 INFO  TestNGClass:230 - Thread @ close-----10------------driver------------FirefoxDriver: firefox on WINDOWS (null)

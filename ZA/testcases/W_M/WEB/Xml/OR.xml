@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<ORName>LOGIN_LINK</ORName>
+		<ORLocator>//a[@class='login']</ORLocator>
+	</record>
+	<record>
+		<ORName>PAGE_HEADING</ORName>
+		<ORLocator>//h1[@class='page-heading']</ORLocator>
+	</record>
+	<record>
+		<ORName>EMAIL_TEXT_BOX</ORName>
+		<ORLocator>email</ORLocator>
+	</record>
+	<record>
+		<ORName>PASSWORD_TEXT_BOX</ORName>
+		<ORLocator>passwd</ORLocator>
+	</record>
+	<record>
+		<ORName>BUTTON_SIGNIN</ORName>
+		<ORLocator>SubmitLogin</ORLocator>
+	</record>
+	<record>
+		<ORName>USER_NAME</ORName>
+		<ORLocator>//a[@class='account']/span[text()='Gobi Ekambaram']</ORLocator>
+	</record>
+	<record>
+		<ORName>CART_LIST</ORName>
+		<ORLocator>//div[@class='shopping_cart']</ORLocator>
+	</record>
+	<record>
+		<ORName>MENU_WOMEN</ORName>
+		<ORLocator>//a[@title='Women']</ORLocator>
+	</record>
+	<record>
+		<ORName>MENU_DRESSES</ORName>
+		<ORLocator>//*[@id='block_top_menu']/ul/li[2]/a</ORLocator>
+	</record>
+	<record>
+		<ORName>MENU_T_SHIRTS</ORName>
+		<ORLocator>//a[@title='T-shirts']</ORLocator>
+	</record>
+	<record>
+		<ORName>LEFT_MENU_CASUAL_DRESSES</ORName>
+		<ORLocator>//div[@id='categories_block_left']//a[contains(text(),'Casual Dresses')]</ORLocator>
+	</record>
+	<record>
+		<ORName>LEFT_MENU_EVENING_DRESSES</ORName>
+		<ORLocator>//div[@id='categories_block_left']//a[contains(text(),'Evening Dresses')]</ORLocator>
+	</record>
+	<record>
+		<ORName>LEFT_MENU_SUMMER_DRESSES</ORName>
+		<ORLocator>//div[@id='categories_block_left']//a[contains(text(),'Summer Dresses')]</ORLocator>
+	</record>
+	<record>
+		<ORName>SORT_BY_TYPE</ORName>
+		<ORLocator>selectProductSort</ORLocator>
+	</record>
+	<record>
+		<ORName>SELECT_PRODUCT</ORName>
+		<ORLocator>//ul[@class='product_list grid row']/li[1]/div[@class='product-container']</ORLocator>
+	</record>
+	<record>
+		<ORName>BUTTON_ADD_TO_CART</ORName>
+		<ORLocator>//span[text()='Add to cart']</ORLocator>
+	</record>
+	<record>
+		<ORName>ADD_CART_SUCCESSFULL_INFO</ORName>
+		<ORLocator>//div[@class='clearfix']//h2</ORLocator>
+	</record>
+	<record>
+		<ORName>CART_INFO</ORName>
+		<ORLocator>//span[contains(text(),'There is 1 item in your cart')]</ORLocator>
+	</record>
+	<record>
+		<ORName>BUTTON_CLOSE_WINDOW</ORName>
+		<ORLocator>//span[@class='cross' and @title='Close window']</ORLocator>
+	</record>
+	<record>
+		<ORName>VIEW_SHOPPING_CART</ORName>
+		<ORLocator>//a[@title='View my shopping cart']</ORLocator>
+	</record>
+	<record>
+		<ORName>REMOVE_CART</ORName>
+		<ORLocator>//span[@class='remove_link']/a</ORLocator>
+	</record>
+	<record>
+		<ORName>BUTTON_LOGOUT</ORName>
+		<ORLocator>//a[@class='logout']</ORLocator>
+	</record>
+	<record>
+		<ORName>IN_STOCK</ORName>
+		<ORLocator>//span[@class='available-now']</ORLocator>
+	</record>
+</data-set>

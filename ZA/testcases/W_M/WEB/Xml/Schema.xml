@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <record>
+       <ORName>LOGIN_LINK</ORName>
+       <ORLocator>//a[@class='login']</ORLocator>      
+    </record>
+    <record>
+       <ORName>PAGE_HEADING</ORName>
+       <ORLocator>//h1[@class='page-heading']</ORLocator>      
+    </record>
+</data-set>

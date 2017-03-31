@@ -1,0 +1,7 @@
+2016-01-11 17:03:26 INFO  Directory:91 - Reading from custom properties
+2016-01-11 17:03:26 INFO  Directory:217 - Setting Reports Dir---D:/Reports
+2016-01-11 17:03:26 INFO  Directory:218 - Setting Results Dir---D:/Reports\Results
+2016-01-11 17:03:27 INFO  FirefoxBrowser:21 - Calling FirefoxBrowser constructor and return Firefox Driver Object
+2016-01-11 17:03:35 INFO  TestNGClass:80 - before set driver Thread -----9------------driver------------FirefoxDriver: firefox on WINDOWS (dffb98d4-39fa-4c2f-8183-959585d66de4)
+2016-01-11 17:03:40 INFO  TestNGClass:84 - after set driver Thread -----9------------driver------------FirefoxDriver: firefox on WINDOWS (dffb98d4-39fa-4c2f-8183-959585d66de4)
+2016-01-11 17:05:01 INFO  TestNGClass:102 - Thread @ first close-----9------------driver------------FirefoxDriver: firefox on WINDOWS (dffb98d4-39fa-4c2f-8183-959585d66de4)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Parallel test suite]" parallel="classes">
+  <parameter name="Ip" value="http://192.168.1.20:"/>
+  <parameter name="Port" value="4444"/>
+  <parameter name="Browser" value="firefox"/>
+  <test name="Grid (failed)" parallel="classes">
+    <parameter name="Ip" value="http://localhost:"/>
+    <parameter name="Port" value="4444"/>
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="zautomate.zadoqa.config.SeleniumGrid">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- zautomate.zadoqa.config.SeleniumGrid -->
+    </classes>
+  </test> <!-- Grid (failed) -->
+  <test name="Grid(failed)" parallel="classes">
+    <parameter name="Ip" value="http://192.168.1.20:"/>
+    <parameter name="Port" value="4444"/>
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="zautomate.zadoqa.config.SeleniumGrid">
+        <methods>
+          <include name="setUp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- zautomate.zadoqa.config.SeleniumGrid -->
+    </classes>
+  </test> <!-- Grid(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
